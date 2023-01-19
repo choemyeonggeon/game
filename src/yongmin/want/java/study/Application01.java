@@ -6,7 +6,7 @@ public class Application01 {
 
 	public static void main(String[] args) {
 		
-		System.out.println("자바 학원을 다니게 된 용민이는 유혹들을 뿌리치고 공부를 할 수 있을까");
+		System.out.println("자바 학원을 다니게 된 용민이는 공부를 방해하는 유혹들을 뿌리치고 공부를 할 수 있을까");
 	
 		Scanner sc = new Scanner(System.in);
 		Yongmin dt = new Yongmin();

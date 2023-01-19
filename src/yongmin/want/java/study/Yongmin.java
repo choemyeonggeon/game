@@ -1,6 +1,8 @@
 package yongmin.want.java.study;
 
+import java.util.Random;
 import java.util.Scanner;
+
 
 public class Yongmin extends DTO {
 	
@@ -100,26 +102,43 @@ public class Yongmin extends DTO {
 			int random1 = (int)(Math.random()*10)+1; 
 			if(random1 >=5 ) {
 				System.out.println("합격입니다.");
-			}else {
-				System.out.println("불합격입니다.");
+				System.out.println("용민이가 프로그래머 용민으로 정보가 바뀝니다.");
+				setName(" 프로그래머 " + getName() );
+				}else {
+				System.out.println("불합격입니다. 용민이가 허무함을 느껴 경험치가 0이 됩니다.");
+				setExp(0);
 			}
 		}else if(getExp()>=2000 && getExp()<3000) {
 			System.out.println("내"+ getExp()+"점수로는 취업확률이 70%야");
 			int random2 = (int)(Math.random()*10)+1;
 			if(random2<=7) {
 				System.out.println("합격입니다.");
+				System.out.println("용민이가 프로그래머 용민으로 정보가 바뀝니다.");
+				setName(" 프로그래머 " + getName() );
 			}else {
-				System.out.println("불합격입니다.");
+				System.out.println("불합격입니다. 용민이가 허무함을 느껴 경험치가 0이 됩니다.");
+				setExp(0);
 			}
 		}else if(getExp()>=3000){
 			System.out.println("이건 그냥 합격이야");
-			
-			
+			System.out.println("용민이가 프로그래머 용민으로 정보가 바뀝니다.");
+			setName(" 프로그래머 " + getName() );
+		}		
+		
+	}
+		
 			
 		
-		}
+				
+			
 	
+						
 		}
+			
+		
+		
+	
+		
 
-	}	
+		
 		

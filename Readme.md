@@ -17,4 +17,7 @@
      9. 합격일떄 math함수를 사용해서 1~10 사이의 수를 지정해 각 점수별로 참과거짓 범위 지정하고 참일경우 getName 저장된 이름에 개발자를 추가해 정보 보기를 누를떄 추가된다.
      10. 면접에서 else로 저장된 불합격이 출력되면 Exp를 0으로 만들기 저장*/
 
-  ![캡처]  (https://github.com/choemyeonggeon/game/blob/master/%EC%BA%A1%EC%B2%98.PNG)
+
+![커뮤니케이션](https://user-images.githubusercontent.com/122598462/213669649-fbf8dda1-6790-4a6c-966e-fbef3ef9c94d.PNG)
+
+  ![클래스](https://user-images.githubusercontent.com/122598462/213668772-74b5401d-1a51-4e64-81e2-949dfab6073e.PNG)

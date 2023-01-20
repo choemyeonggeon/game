@@ -39,7 +39,7 @@ public class Application01 {
 				System.out.println(" 용민이가 포기했습니다...");
 				System.out.println("======================================");
 				System.out.println("Game over...");
-				break;
+				return;
 				
 			default :
 				System.out.println("다른 번호를 다시 입력해 주세요");

@@ -58,11 +58,11 @@ public class Yongmin extends DTO {
 	}	
 	public void playyongmin() {
 
-		System.out.println("오늘의 공부 방식은??");
+		
 		Scanner sc = new Scanner(System.in);
 
 		while(true) {
-			System.out.println("용민이가 놀기 시작한다!");
+			System.out.println("용민이가 뭐하고 놀까 고민한다.!");
 			System.out.println("1. 용민이가 게임을 시작한다...");
 			System.out.println("2. 용민이가 잠을 잔다...");
 			System.out.println("3. 용민이가 여자친구를 만나러 간다...");
@@ -102,8 +102,8 @@ public class Yongmin extends DTO {
 			int random1 = (int)(Math.random()*10)+1; 
 			if(random1 >=5 ) {
 				System.out.println("합격입니다.");
-				System.out.println("용민이가 프로그래머 용민으로 정보가 바뀝니다.");
-				setName(" 프로그래머 " + getName() );
+				System.out.println("용민이가 개발자 용민으로 정보가 바뀝니다.");
+				setName(" 개발자 " + getName() );
 				}else {
 				System.out.println("불합격입니다. 용민이가 허무함을 느껴 경험치가 0이 됩니다.");
 				setExp(0);
@@ -113,16 +113,16 @@ public class Yongmin extends DTO {
 			int random2 = (int)(Math.random()*10)+1;
 			if(random2<=7) {
 				System.out.println("합격입니다.");
-				System.out.println("용민이가 프로그래머 용민으로 정보가 바뀝니다.");
-				setName(" 프로그래머 " + getName() );
+				System.out.println("용민이가 개발자 용민으로 정보가 바뀝니다.");
+				setName(" 개발자 " + getName() );
 			}else {
 				System.out.println("불합격입니다. 용민이가 허무함을 느껴 경험치가 0이 됩니다.");
 				setExp(0);
 			}
 		}else if(getExp()>=3000){
 			System.out.println("이건 그냥 합격이야");
-			System.out.println("용민이가 프로그래머 용민으로 정보가 바뀝니다.");
-			setName(" 프로그래머 " + getName() );
+			System.out.println("용민이가 개발자 용민으로 정보가 바뀝니다.");
+			setName(" 개발자 " + getName() );
 		}		
 		
 	}
